@@ -1,0 +1,21 @@
+.categorias{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flexCategoria{
+    width: 80px;
+    text-decoration: none;
+    display: block;
+}
+
+.pizzas{
+
+}
+
+.textCategory{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
