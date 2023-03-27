@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Card from "../Card/Card";
-import obtenerProductos from "../Storage/MockService";
-import { obtenerProductoPorCategoria } from "../Storage/MockService";
+import obtenerProductos from "../storage/MockService.js";
+import { obtenerProductoPorCategoria } from "../storage/MockService.js";
 import Flex from "../Flex/Flex";
 
 function ItemListContainer() {

@@ -1,0 +1,71 @@
+.flexCarrito{
+    width: 40%;
+}
+
+.titleCarrito{
+    text-align: center;
+    color: #419166;
+    font-size: 2em;
+    position: relative;
+    margin-bottom: 20px;
+    letter-spacing: .07em;
+}
+
+.titleCarrito::after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #419166;
+    position: absolute;
+    bottom: -10px;
+    left: 3em;
+}
+
+.boxCarrito{
+    width: 90%;
+    min-height: 300px;
+    border: 1px rgba(39, 39, 39, 0.5) solid;
+    margin: 5%;
+}
+
+.sinProductos{
+    height: 300px;
+    display: grid;
+    place-content: center;
+}
+
+
+.flex{
+    position: relative;
+}
+
+.buttonItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+}
+
+.buttonCart{
+    width: 150px;
+    height: 32px;
+    background-color: #d5483a;
+    border-radius: 15px;
+    color: antiquewhite;
+}
+
+.buttonCart:active{
+    animation: press 2s;
+}
+
+
+@keyframes press {
+    from{
+        scale: .95;
+    }
+    to {
+        scale: 1.1;
+    }
+}
